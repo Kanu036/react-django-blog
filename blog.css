@@ -1,0 +1,75 @@
+/* stylelint-disable @stylistic/selector-list-comma-newline-after */
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+.card-blog {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-blog:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.display-4 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.card-text {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.nav-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.nav-scroller {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.blog-thumbnail:hover {
+  transform: scale(1.1);
+  
+}
