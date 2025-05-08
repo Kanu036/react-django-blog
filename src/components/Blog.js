@@ -67,9 +67,9 @@ const Blog = () => {
                     <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div className="col p-4 d-flex flex-column position-static">
                             <strong className="d-inline-block mb-2 text-primary-emphasis">{capitalizeFirstLetter(blogPost.category)}</strong>
-                            <h3 className="mb-0">{blogPost.title}</h3>
+                            <h3 className="mb-0 blog-title">{blogPost.title}</h3>
                             <div className="mb-1 text-muted">{formatDate(blogPost?.date_created)}</div>
-                            <p className="card-text mb-auto">{blogPost.excerpt}.</p>
+                            <p className="card-text mb-auto excerpt-text">{blogPost.excerpt}.</p>
                             <Link to={`/blog/${blogPost.slug}`} className="stretched-link">Continue reading</Link>
                         </div>
                         <div className="col-auto d-none d-lg-block">

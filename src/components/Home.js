@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Home.css';
 
 const Home = () => (
   <div className='container d-flex flex-column justify-content-center align-items-center py-5'>
@@ -15,15 +16,10 @@ const Home = () => (
       Click the button below to dive into our amazing collection of blog posts.
     </p>
     
-    <Link className='btn btn-primary btn-lg shadow' to='/blog' role='button'>
+    <Link className='btn custom-button btn-lg shadow' to='/blog' role='button'>
       Check Out Our Blog
     </Link>
     
-    <div className='mt-5'>
-      <p className='text-muted text-center'>
-        Created with ❤️ to inspire and share knowledge.
-      </p>
-    </div>
   </div>
 );
 

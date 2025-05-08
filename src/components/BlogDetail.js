@@ -43,7 +43,7 @@ const BlogDetail = () => {
     return (
         <div className='container mt-3 '>
             <h1 className='display-2'>{blog.title}</h1>
-            <h2 className='text-muted mt-3'>Category: {capitalizeFirstLetter(blog.category)}</h2>
+            <h2 className='text-muted mt-3 category-heading'>Category: {capitalizeFirstLetter(blog.category)}</h2>
             <div className="mb-1 text-muted">{formatDate(blog?.date_created)}</div>
             <div className='mt-5 mb-5' dangerouslySetInnerHTML={createBlog()} />
             <hr />
