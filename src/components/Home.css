@@ -1,0 +1,15 @@
+.custom-button {
+    background-color: #a8ebd1;
+    /* pink example */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #c7528d;
+}
